@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Looksmaxing Qo‘llanmasi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      background: #000;
+      overflow-x: hidden;
+      padding: 30px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.85);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+    h1, h2 {
+      color: #ff9800;
+      margin-bottom: 15px;
+    }
+    p, ul {
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .footer a {
+      color: #ff9800;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    /* Til tanlash tugmalari */
+    .language-switcher {
+      position: fixed;
+      top: 20px;
+      right: 30px;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      z-index: 1000;
+      user-select: none;
+    }
+    .language-switcher button {
+      background: none;
+      border: none;
+      color: #ff9800;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 0 6px;
+      transition: color 0.3s ease;
+    }
+    .language-switcher button.active,
+    .language-switcher button:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="language-switcher">
+    <button id="uz-btn" class="active">UZ</button> |
+    <button id="en-btn">EN</button> |
+    <button id="ru-btn">RU</button>
+  </div>
+
+  <div class="container">
+    <h1 id="title">Looksmaxing Qo‘llanmasi</h1>
+
+    <h2 id="h1">Looksmaxing nima?</h2>
+    <p id="p1">Looksmaxing — bu tashqi ko‘rinishni imkon qadar yaxshilash orqali o‘ziga bo‘lgan ishonchni oshirish va jamiyatdagi o‘rningizni mustahkamlashga qaratilgan yondashuvdir. Bu turli metodlar orqali amalga oshiriladi: yuz va tana mashqlari, teri parvarishi, sochni parvarish qilish, dieta, mewing va hatto yurish-turishdagi odatlarni to‘g‘rilash orqali.</p>
+
+    <h2 id="h2">1. Gua Sha Qanday Ishlatiladi?</h2>
+    <ul id="ul1">
+      <li>Toza yuzga va yog' (masalan, jojoba yoki argan) surting.</li>
+      <li>Gua Sha plastinasini yuzingizga 15° burchakda tuting.</li>
+      <li>Yuzning markazidan tashqariga qarab ohista torting — pastki jag', yonoq, burun yonlari, peshona bo‘ylab.</li>
+      <li>Har bir qismni 5–10 marta massaj qiling.</li>
+      <li>Kechqurun va ertalab muntazam foydalaning.</li>
+    </ul>
+
+    <h2 id="h3">2. Skin Care (Teri Parvarishi)</h2>
+    <ul id="ul2">
+      <li>Kuniga 2 marta yuzni yumshoq yuvuvchi vosita bilan yuving.</li>
+      <li>Teri turiga mos toner va nemlendiruvchi krem ishlating.</li>
+      <li>Har kuni SPF 30+ quyoshdan himoya kremini surting.</li>
+      <li>Haftasiga 1-2 marta niqob va eksfoliant ishlating.</li>
+      <li>Yaxshi uyqu, toza suv va kam shakarli ovqatlanish teriga bevosita ta’sir qiladi.</li>
+    </ul>
+
+    <h2 id="h4">3. Dieta</h2>
+    <ul id="ul3">
+      <li>Har kuni ko‘p miqdorda suv iching (kamida 2.5–3L).</li>
+      <li>Sabzavot va mevalarni ko‘proq iste’mol qiling.</li>
+      <li>Proteinlarga boy (tovuq, baliq, tuxum, dukkakli) ovqatlar tanlang.</li>
+      <li>Qayta ishlangan ovqatlar, fastfood va shakarni cheklang.</li>
+      <li>Vitamin D, Omega-3 va rux (zinc) kabi qo‘shimchalar foydali.</li>
+    </ul>
+
+    <h2 id="h5">4. Tana Mashqlari va Kardio</h2>
+    <ul id="ul4">
+      <li>Yugurish</li>
+      <li>Jumping jacks</li>
+      <li>Burpees</li>
+      <li>Mountain climbers</li>
+      <li>Rope skipping (arqonda sakrash)</li>
+      <li>Shadow boxing</li>
+      <li>Stair climbing</li>
+      <li>HIIT (interval mashqlar)</li>
+      <li>Velosiped (real yoki statsionar)</li>
+      <li>Tez yurish (power walking)</li>
+    </ul>
+
+    <h2 id="h6">5. Mewing</h2>
+    <ul id="ul5">
+      <li>Tilingizni butun yuzasi bilan yuqori tanglayga bosing.</li>
+      <li>Tishlar yengil yopiq, jag‘ bo‘sh holatda bo‘lsin.</li>
+      <li>Burningizdan nafas oling.</li>
+      <li>Bu holatni kundalik odatga aylantiring.</li>
+    </ul>
+
+    <h2 id="h7">6. Jawline uchun Mashqlar</h2>
+    <ul id="ul6">
+      <li>Gum chaynash (qattiqroq saqichlar foydali).</li>
+      <li>Neck curls (bo‘yin mashqlari).</li>
+      <li>Gua Sha bilan massaj.</li>
+      <li>Chin lifts (ishga tushmasin!)</li>
+      <li>Jaw resistance (yengil qarshilik bilan jag‘ni ochib-yopish).</li>
+    </ul>
+
+    <h2 id="h8">7. Ko‘zlar Uchun Mashqlar</h2>
+    <ul id="ul7">
+      <li>Ko‘z aylantirish (chapga-o‘ngga, yuqoriga-pastga).</li>
+      <li>20-20-20 qoidasi: Har 20 daqiqa, 20 soniya 20 metr uzoqlikka qarang.</li>
+      <li>Ko‘z mushaklarini massaj qilish (muloyim aylana harakatlar bilan).</li>
+      <li>Yaxshi uyqu va ko‘z osti yostiqchalari ishlatish.</li>
+    </ul>
+
+    <h2 id="h9">8. Burun Uchun Mashqlar</h2>
+    <ul id="ul8">
+      <li>Burunni yuqoriga tortish (barmoq bilan engil bosib).</li>
+      <li>Burun uchini harakatlantirish mashqlari.</li>
+      <li>Yuzni massaj qilish (Gua Sha bilan ham).</li>
+    </ul>
+
+    <h2 id="h10">9. Soch Parvarishi</h2>
+    <ul id="ul9">
+      <li>DHTni bloklovchi shampunlar ishlatish (masalan, ketokonazol asosida).</li>
+      <li>Scalp massaji (kuniga 5 daqiqa, qon aylanishi uchun).</li>
+      <li>Biotin va rux (zinc) qabul qilish.</li>
+      <li>Kam stress va yaxshi uyqu saqlash.</li>
+    </ul>
+
+    <div class="footer" id="footer">
+      <p><a href="https://instagram.com/uzmogging" target="_blank">uzmogging</a> Instagram sahifamizga tashrif buyuring.</p>
+    </div>
+  </div>
+
+  <script>
+    const content = {
+      uz: {
+        title: "Looksmaxing Qo‘llanmasi",
+        h1: "Looksmaxing nima?",
+        p1: "Looksmaxing — bu tashqi ko‘rinishni imkon qadar yaxshilash orqali o‘ziga bo‘lgan ishonchni oshirish va jamiyatdagi o‘rningizni mustahkamlashga qaratilgan yondashuvdir. Bu turli metodlar orqali amalga oshiriladi: yuz va tana mashqlari, teri parvarishi, sochni parvarish qilish, dieta, mewing va hatto yurish-turishdagi odatlarni to‘g‘rilash orqali.",
+        h2: "1. Gua Sha Qanday Ishlatiladi?",
+        ul1: [
+          "Toza yuzga va yog' (masalan, jojoba yoki argan) surting.",
+          "Gua Sha plastinasini yuzingizga 15° burchakda tuting.",
+          "Yuzning markazidan tashqariga qarab ohista torting — pastki jag', yonoq, burun yonlari, peshona bo‘ylab.",
+          "Har bir qismni 5–10 marta massaj qiling.",
+          "Kechqurun va ertalab muntazam foydalaning."
+        ],
+        h3: "2. Skin Care (Teri Parvarishi)",
+        ul2: [
+          "Kuniga 2 marta yuzni yumshoq yuvuvchi vosita bilan yuving.",
+          "Teri turiga mos toner va nemlendiruvchi krem ishlating.",
+          "Har kuni SPF 30+ quyoshdan himoya kremini surting.",
+          "Haftasiga 1-2 marta niqob va eksfoliant ishlating.",
+          "Yaxshi uyqu, toza suv va kam shakarli ovqatlanish teriga bevosita ta’sir qiladi."
+        ],
+        h4: "3. Dieta",
+        ul3: [
+          "Har kuni ko‘p miqdorda suv iching (kamida 2.5–3L).",
+          "Sabzavot va mevalarni ko‘proq iste’mol qiling.",
+          "Proteinlarga boy (tovuq, baliq, tuxum, dukkakli) ovqatlar tanlang.",
+          "Qayta ishlangan ovqatlar, fastfood va shakarni cheklang.",
+          "Vitamin D, Omega-3 va rux (zinc) kabi qo‘shimchalar foydali."
+        ],
+        h5: "4. Tana Mashqlari va Kardio",
+        ul4: [
+          "Yugurish",
+          "Jumping jacks",
+          "Burpees",
+          "Mountain climbers",
+          "Rope skipping (arqonda sakrash)",
+          "Shadow boxing",
+          "Stair climbing",
+          "HIIT (interval mashqlar)",
+          "Velosiped (real yoki statsionar)",
+          "Tez yurish (power walking)"
+        ],
+        h6: "5. Mewing",
+        ul5: [
+          "Tilingizni butun yuzasi bilan yuqori tanglayga bosing.",
+          "Tishlar yengil yopiq, jag‘ bo‘sh holatda bo‘lsin.",
+          "Burningizdan nafas oling.",
+          "Bu holatni kundalik odatga aylantiring."
+        ],
+        h7: "6. Jawline uchun Mashqlar",
+        ul6: [
+          "Gum chaynash (qattiqroq saqichlar foydali).",
+          "Neck curls (bo‘yin mashqlari).",
+          "Gua Sha bilan massaj.",
+          "Chin lifts (ishga tushmasin!)",
+          "Jaw resistance (yengil qarshilik bilan jag‘ni ochib-yopish)."
+        ],
+        h8: "7. Ko‘zlar Uchun Mashqlar",
+        ul7: [
+          "Ko‘z aylantirish (chapga-o‘ngga, yuqoriga-pastga).",
+          "20-20-20 qoidasi: Har 20 daqiqa, 20 soniya 20 metr uzoqlikka qarang.",
+          "Ko‘z mushaklarini massaj qilish (muloyim aylana harakatlar bilan).",
+          "Yaxshi uyqu va ko‘z osti yostiqchalari ishlatish."
+        ],
+        h9: "8. Burun Uchun Mashqlar",
+        ul8: [
+          "Burunni yuqoriga tortish (barmoq bilan engil bosib).",
+          "Burun uchini harakatlantirish mashqlari.",
+          "Yuzni massaj qilish (Gua Sha bilan ham)."
+        ],
+        h10: "9. Soch Parvarishi",
+        ul9: [
+          "DHTni bloklovchi shampunlar ishlatish (masalan, ketokonazol asosida).",
+          "Scalp massaji (kuniga 5 daqiqa, qon aylanishi uchun).",
+          "Biotin va rux (zinc) qabul qilish.",
+          "Kam stress va yaxshi uyqu saqlash."
+        ],
+        footer: <p><a href="https://instagram.com/uzmogging" target="_blank">uzmogging</a> Instagram sahifamizga tashrif buyuring.</p>
+      },
+
+      en: {
+        title: "Looksmaxing Guide",
+        h1: "What is Looksmaxing?",
+        p1: "Looksmaxing is an approach focused on improving your appearance to boost self-confidence and strengthen your social standing. It involves various methods such as facial and body exercises, skincare, hair care, diet, mewing, and even adjusting habits like posture and walking.",
+        h2: "1. How to Use Gua Sha?",
+        ul1: [
+          "Apply oil (e.g., jojoba or argan) on clean face.",
+          "Hold the Gua Sha tool at a 15° angle to your face.",
+          "Gently stroke from the center of the face outward – jawline, cheeks, sides of nose, forehead.",
+          "Massage each area 5–10 times.",
+          "Use regularly in the morning and evening."
+        ],
+        h3: "2. Skin Care",
+        ul2: [
+          "Wash your face twice a day with a gentle cleanser.",
+          "Use toner and moisturizer suited for your skin type.",
+          "Apply SPF 30+ sunscreen daily.",
+          "Use masks and exfoliants 1-2 times per week.",
+          "Good sleep, clean water, and low sugar intake directly affect skin health."
+        ],
+        h4: "3. Diet",
+        ul3: [
+          "Drink plenty of water daily (at least 2.5–3L).",
+          "Eat more vegetables and fruits.",
+          "Choose protein-rich foods (chicken, fish, eggs, legumes).",
+          "Limit processed foods, fast food, and sugar.",
+          "Supplements like Vitamin D, Omega-3, and zinc are beneficial."
+        ],
+        h5: "4. Body Exercises and Cardio",
+        ul4: [
+          "Running",
+          "Jumping jacks",
+          "Burpees",
+          "Mountain climbers",
+          "Rope skipping",
+          "Shadow boxing",
+          "Stair climbing",
+          "HIIT (interval training)",
+          "Cycling (real or stationary)",
+          "Power walking"
+        ],
+        h6: "5. Mewing",
+        ul5: [
+          "Press your tongue against the entire roof of your mouth.",
+          "Keep teeth lightly closed, jaw relaxed.",
+          "Breathe through your nose.",
+          "Make this a daily habit."
+        ],
+        h7: "6. Jawline Exercises",
+        ul6: [
+          "Chew gum (harder gums are helpful).",
+          "Neck curls.",
+          "Massage with Gua Sha.",
+          "Chin lifts (avoid overdoing).",
+          "Jaw resistance exercises (light resistance while opening and closing jaw)."
+        ],
+        h8: "7. Eye Exercises",
+        ul7: [
+          "Rotate eyes left-right, up-down.",
+          "20-20-20 rule: every 20 minutes, look 20 seconds at something 20 meters away.",
+          "Massage eye muscles gently in circular motions.",
+          "Get good sleep and use eye pads."
+        ],
+        h9: "8. Nose Exercises",
+        ul8: [
+          "Lift your nose upward (gently pressing with a finger).",
+          "Nose tip movement exercises.",
+          "Face massage (including with Gua Sha)."
+        ],
+        h10: "9. Hair Care",
+        ul9: [
+          "Use shampoos that block DHT (e.g., with ketoconazole).",
+          "Scalp massage for 5 minutes daily to increase blood flow.",
+          "Take biotin and zinc supplements.",
+          "Maintain low stress and good sleep."
+        ],
+        footer: <p>Visit our <a href="https://instagram.com/uzmogging" target="_blank">uzmogging</a> Instagram page.</p>
+      },
+
+      ru: {
+        title: "Руководство по Looksmaxing",
+        h1: "Что такое Looksmaxing?",
+        p1: "Looksmaxing — это подход, направленный на улучшение внешнего вида для повышения уверенности в себе и укрепления положения в обществе. Включает различные методы: упражнения для лица и тела, уход за кожей, уход за волосами, диету, mewing и даже корректировку привычек, таких как осанка и походка.",
+        h2: "1. Как использовать Гуа Ша?",
+        ul1: [
+          "Нанесите масло (например, жожоба или аргановое) на чистое лицо.",
+          "Держите инструмент Гуа Ша под углом 15° к лицу.",
+          "Аккуратно проведите от центра лица кнаружи – по линии челюсти, щекам, бокам носа, лбу.",
+          "Массируйте каждую область 5–10 раз.",
+          "Регулярно используйте утром и вечером."
+        ],
+        h3: "2. Уход за кожей",
+        ul2: [
+          "Мойте лицо два раза в день мягким средством.",
+          "Используйте тоник и увлажняющий крем, подходящие для вашего типа кожи.",
+          "Наносите солнцезащитный крем SPF 30+ ежедневно.",
+          "Используйте маски и эксфолианты 1-2 раза в неделю.",
+          "Хороший сон, чистая вода и низкое потребление сахара положительно влияют на кожу."
+        ],
+        h4: "3. Диета",
+        ul3: [
+          "Пейте много воды ежедневно (не менее 2.5–3 литров).",
+          "Ешьте больше овощей и фруктов.",
+          "Выбирайте продукты, богатые белком (курица, рыба, яйца, бобовые).",
+          "Ограничьте переработанные продукты, фастфуд и сахар.",
+          "Полезны добавки с витамином D, Омега-3 и цинком."
+        ],
+        h5: "4. Физические упражнения и кардио",
+        ul4: [
+          "Бег",
+          "Прыжки на месте (jumping jacks)",
+          "Бёрпи",
+          "Скалолазание (mountain climbers)",
+          "Прыжки со скакалкой",
+          "Тень бокс (shadow boxing)",
+          "Подъем по лестнице",
+          "ВИИТ (интервальные тренировки)",
+          "Велоспорт (реальный или стационарный)",
+          "Быстрая ходьба"
+        ],
+        h6: "5. Mewing",
+        ul5: [
+          "Прижмите язык всей поверхностью к верхнему небу.",
+          "Держите зубы слегка сомкнутыми, челюсть расслаблена.",
+          "Дышите через нос.",
+          "Сделайте это ежедневной привычкой."
+        ],
+        h7: "6. Упражнения для челюсти",
+        ul6: [
+          "Жевание жвачки (жестче – лучше).",
+          "Наклоны головы (neck curls).",
+          "Массаж с помощью Гуа Ша.",
+          "Подъемы подбородка (не переусердствуйте).",
+          "Упражнения с сопротивлением челюсти."
+        ],
+        h8: "7. Упражнения для глаз",
+        ul7: [
+          "Вращайте глазами влево-вправо, вверх-вниз.",
+          "Правило 20-20-20: каждые 20 минут смотрите 20 секунд на объект в 20 метрах.",
+          "Массаж глазных мышц круговыми движениями.",
+          "Хороший сон и использование подушек для глаз."
+        ],
+        h9: "8. Упражнения для носа",
+        ul8: [
+          "Поднимайте нос вверх (легко нажимая пальцем).",
+          "Упражнения для движения кончика носа.",
+          "Массаж лица (включая Гуа Ша)."
+        ],
+        h10: "9. Уход за волосами",
+        ul9: [
+          "Используйте шампуни, блокирующие ДГТ (например, на основе кетоконазола).",
+          "Массаж кожи головы по 5 минут в день для улучшения кровообращения.",
+          "Принимайте добавки с биотином и цинком.",
+          "Снижайте стресс и обеспечивайте хороший сон."
+        ],
+        footer: <p>Посетите нашу страницу в Instagram: <a href="https://instagram.com/uzmogging" target="_blank">uzmogging</a>.</p>
+      }
+    };
+
+    // HTML elementlar
+    const titleEl = document.getElementById("title");
+    const h1El = document.getElementById("h1");
+    const p1El = document.getElementById("p1");
+
+    const h2El = document.getElementById("h2");
+    const ul1El = document.getElementById("ul1");
+
+    const h3El = document.getElementById("h3");
+    const ul2El = document.getElementById("ul2");
+
+    const h4El = document.getElementById("h4");
+    const ul3El = document.getElementById("ul3");
+
+    const h5El = document.getElementById("h5");
+    const ul4El = document.getElementById("ul4");
+
+    const h6El = document.getElementById("h6");
+    const ul5El = document.getElementById("ul5");
+
+    const h7El = document.getElementById("h7");
+    const ul6El = document.getElementById("ul6");
+
+    const h8El = document.getElementById("h8");
+    const ul7El = document.getElementById("ul7");
+
+    const h9El = document.getElementById("h9");
+    const ul8El = document.getElementById("ul8");
+
+    const h10El = document.getElementById("h10");
+    const ul9El = document.getElementById("ul9");
+
+    const footerEl = document.getElementById("footer");
+
+    // Tilni o'zgartirish funksiyasi
+    function changeLanguage(lang) {
+      const data = contents[lang];
+
+      titleEl.textContent = data.title;
+      h1El.textContent = data.h1;
+      p1El.textContent = data.p1;
+
+      h2El.textContent = data.h2;
+      ul1El.innerHTML = "";
+      data.ul1.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul1El.appendChild(li);
+      });
+
+      h3El.textContent = data.h3;
+      ul2El.innerHTML = "";
+      data.ul2.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul2El.appendChild(li);
+      });
+
+      h4El.textContent = data.h4;
+      ul3El.innerHTML = "";
+      data.ul3.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul3El.appendChild(li);
+      });
+
+      h5El.textContent = data.h5;
+      ul4El.innerHTML = "";
+      data.ul4.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul4El.appendChild(li);
+      });
+
+      h6El.textContent = data.h6;
+      ul5El.innerHTML = "";
+      data.ul5.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul5El.appendChild(li);
+      });
+
+      h7El.textContent = data.h7;
+      ul6El.innerHTML = "";
+      data.ul6.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul6El.appendChild(li);
+      });
+
+      h8El.textContent = data.h8;
+      ul7El.innerHTML = "";
+      data.ul7.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul7El.appendChild(li);
+      });
+
+      h9El.textContent = data.h9;
+      ul8El.innerHTML = "";
+      data.ul8.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul8El.appendChild(li);
+      });
+
+      h10El.textContent = data.h10;
+      ul9El.innerHTML = "";
+      data.ul9.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul9El.appendChild(li);
+      });
+
+      footerEl.innerHTML = data.footer;
+    }
+
+    // Dastlabki tilni o'rnatish (uz)
+    changeLanguage("uz");
+  </script>
+</body>
+<script>
+  // Saytga kirishdan oldin parolni tekshirish funksiyasi
+  const correctPassword = "uzmogging543216789";
+
+  function askPassword() {
+    const userPassword = prompt("Saytga kirish uchun parolni kiriting:");
+    if (userPassword === correctPassword) {
+      alert("Xush kelibsiz!");
+    } else {
+      alert("Noto'g'ri parol! Saytga kirish taqiqlangan.");
+      document.body.innerHTML = ""; // Saytni yashirish
+    }
+  }
+
+  // Parolni tekshirishni ishga tushirish
+  askPassword();
+</script>
+</html>
